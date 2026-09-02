@@ -1,0 +1,8 @@
+# Checkpoints & Data
+.ipynb_checkpoints/
+data/
+*.h5
+*.keras
+*.jpg
+*.png
+venv/
