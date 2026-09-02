@@ -1,39 +1,27 @@
-# Nike Logo Detection using Deep Learning (VGG16 Transfer Learning)
+# 👟 Nike_Logo_Detection_Deep_Learning
 
-A Computer Vision and Deep Learning project implementing **Transfer Learning with VGG16** in Keras/TensorFlow to detect and classify Nike brand logos in real-world images.
+[![Live Demo](https://img.shields.io/badge/Live_Demo-GitHub_Pages-lime?style=for-the-badge&logo=github)](https://jigyasha1712.github.io/Nike_Logo_Detection_Deep_Learning/)
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Keras / TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?style=for-the-badge&logo=tensorflow&logoColor=white)](https://tensorflow.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
----
-
-## 🚀 Key Features
-- **Transfer Learning Backbone**: Leverages pre-trained **VGG16** weights (ImageNet) for high-level feature extraction.
-- **Custom Classification Head**: GlobalAveragePooling2D + Dense layers with Sigmoid activation for binary logo classification.
-- **Data Augmentation Pipeline**: `ImageDataGenerator` with random shear, zoom (0.2), and horizontal flips to prevent overfitting.
-- **Exported Weights**: Saves trained model weights to `logo_detection_model.h5`.
+Automated Nike logo recognition and image classification built with **VGG16 CNN Transfer Learning** and TensorFlow/Keras.
 
 ---
 
-## 🛠️ Tech Stack
-- **Frameworks**: TensorFlow, Keras
-- **Architecture**: VGG16 CNN Backbone
-- **Image Preprocessing**: Keras ImageDataGenerator, Pillow
-- **Optimization**: Adam Optimizer, Binary Crossentropy Loss
+## 🌟 Live Interactive Web Demo
+Test the live athletic detection canvas and layer telemetry:  
+👉 **[https://jigyasha1712.github.io/Nike_Logo_Detection_Deep_Learning/](https://jigyasha1712.github.io/Nike_Logo_Detection_Deep_Learning/)**
 
 ---
 
-## 📦 How to Run in Google Colab / Locally
-
-### Option 1: Google Colab
-1. Upload `Nike_Logo_Detection_VGG16.ipynb` to [Google Colab](https://colab.research.google.com/).
-2. Enable GPU Acceleration: `Runtime > Change runtime type > T4 GPU`.
-3. Run all cells.
-
-### Option 2: Local Execution
-```bash
-pip install -r requirements.txt
-jupyter notebook Nike_Logo_Detection_VGG16.ipynb
+## 📁 Repository Structure
 ```
-
----
+├── index.html                      # Interactive SwooshVision Web App (GitHub Pages)
+├── Nike_Logo_Detection_VGG16.ipynb # Jupyter notebook with VGG16 model pipeline
+├── requirements.txt                # Dependencies (tensorflow, opencv-python, pillow)
+└── README.md
+```
 
 ## 📄 License
 MIT License
