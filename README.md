@@ -1,4 +1,4 @@
-# 👟 Nike Logo Detection using Deep Learning (VGG16 Transfer Learning)
+# Nike Logo Detection using Deep Learning (VGG16 Transfer Learning)
 
 A Computer Vision and Deep Learning project implementing **Transfer Learning with VGG16** in Keras/TensorFlow to detect and classify Nike brand logos in real-world images.
 
